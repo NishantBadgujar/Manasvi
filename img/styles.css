@@ -1,0 +1,65 @@
+.card {
+    border: 1px solid #ddd; /* Adds a subtle border to the card */
+    border-radius: 10px; /* Slightly rounder corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height:500px; /* Smooth hover effect */
+    width: 400px;
+    align-items: flex-start;
+    position: relative;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* More pronounced shadow */
+}
+
+
+
+.card-img-top {
+    padding: 20px;
+    height: 320px; /* Fixed height for images */
+     /* Ensures images fit nicely without distortion */
+    border-radius: 40px;
+    
+}
+
+
+
+.card-text {
+    color: #3f3f3f;
+    font-size: 0.95rem;
+}
+.card-button{
+     background-color: rgb(39, 124, 39);
+     border-radius: 20px;
+     border: none;
+     color: white;
+     position: absolute; /* Position the button at the top right corner */
+    top: 20px; /* Distance from the top edge */
+    right: 10px; /* Distance from the right edge */
+    padding: 10px 20px;
+    height: 30px;
+    display: flex; /* Enable flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+}
+.button1{
+    background-color: rgb(253, 49, 49);
+    border-radius: 20px;
+    border: none;
+    color: white;
+    position: absolute; /* Position the button at the top right corner */
+   top: 87%; 
+   /* Distance from the top edge */
+   right: 40%; /* Distance from the right edge */
+   padding: 10px 20px;
+   height: 50px;
+   display: flex; /* Enable flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+}
+
+.card-text{
+    align-items: start;
+}

@@ -1,0 +1,499 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  /* background-color: beige; */
+}
+
+.nav-logo {
+  height: 40px;
+  width: auto;
+}
+
+ul {
+  /* list-style: none; */
+  /* list-style-type: style type inherit; */
+  padding: 40px;
+  margin: 0;
+}
+
+#nav-lk:hover {
+  color: rgb(224, 82, 82);
+}
+
+ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+.dropdown-item {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.slide-container {
+  height: 100vh;
+}
+.sld-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: -20px;
+  right: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+}
+
+#manasvi-h {
+  background-color: rgb(234, 219, 192);
+  border-radius: 50px;
+  font-size: small;
+}
+.carousel-caption h5 #manasvi-h {
+  color: rgb(36, 236, 232);
+}
+.carousel-caption h5 {
+  color: #fff;
+  font-size: 3.5rem;
+  font-weight: bold;
+  padding-top: 15%;
+}
+.carousel-caption p {
+  padding: 50px 120px;
+  color: #ddd;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-top: 8em;
+  text-align: justify;
+}
+
+/* Hero Section */
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+/*.h-img{
+  width: 730px;
+  height: 500px;
+   object-fit: cover; 
+ }
+
+.here-content{
+  text-align: center;
+  color: white;
+  width: 50px;
+  height: 50px;
+} */
+
+.hero-h {
+  font-size: 3rem;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+}
+.projects {
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+  display: flex;
+  background-color: transparent;
+}
+
+.project {
+  display: inline;
+  width: 50%;
+  border: 1px solid white;
+  border-radius: 2%;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(152, 152, 211, 0.158);
+  border-width: 4px;
+  background-color: transparent;
+}
+.Who-h {
+}
+
+.project img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.project h3 {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+.project p {
+  margin-top: 1px;
+  line-height: 1.5;
+  font-size: 1rem;
+}
+.project:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+/* cards */
+
+.course-h {
+  text-align: center;
+  /* text-shadow: #255fc3 2px 1px; */
+  margin: 1em 2em;
+  padding: 10px;
+  font-size: 4rem;
+  text-align: center;
+  font-weight: 700;
+  color: rgb(210, 94, 76);
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+/* ----------------- */
+
+ .card {
+  /* padding: 20px; */
+  border: 1px solid #ddd;
+  border-radius: 3%;
+  margin: 20px 0;
+  transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card.highlight {
+  background-color: #cbe3f7;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transform: scale(1.12); 
+} 
+
+/* ------------------------- */
+
+
+
+
+
+/* .card {
+  background-color: white;
+  color: black;
+  box-shadow: 3px 3px rgba(220, 210, 210, 0.434);
+} */
+
+.card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s;
+  transform: translateY(-10px);
+  box-shadow: 0 0 2px 2px rgba(222, 67, 67, 0.473);
+}
+
+.card-title {
+  text-align: center;
+}
+.btn-view {
+  color: rgb(100, 100, 252);
+}
+
+.btn-view:hover {
+  background-color: rgb(255, 218, 224);
+  color: red;
+}
+
+.fa-check-to-slot {
+  margin: 5px;
+  color: rgb(70, 199, 70);
+  font-size: 1.3em;
+}
+.nxt-arw {
+  margin: 5px;
+}
+
+
+/* ---------Winnig Formula-------- */
+
+.win-frml{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 450px;
+  /* background-color: black; */
+  /* color: #cbe3f7; */
+  /* color: black; */
+}
+
+#win-h{
+  font-size: 4rem;
+  text-align: center;
+  font-weight: 700;
+  margin: 1em;
+  color: rgb(210, 94, 76);
+}
+#win-card-cnt{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#win-card-1{
+  background: linear-gradient(to left, #adecf8, #9cc6f3);
+  color: black;
+  width: 400px;
+  border-radius: 1em;
+  padding: 1.2em;
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.285);
+}
+
+#win-card-2{
+  background: linear-gradient(to left, #e0e2cf, #d8d6a2);
+  color: black;
+  width: 400px;
+  border-radius: 1em;
+  padding: 1.2em;
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.285);
+
+}
+
+.win-card-h{
+  margin-top: 1em;
+  font-weight: 700;
+}
+
+/* ------------------*****---------------- */
+
+/* Login Form CSS */
+
+.log-body {
+  background-color: white;
+  height: 98vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.container-form {
+  width: 500px;
+  height: 500px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e3f0fc;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+.log-cnt{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100wh;
+  height: 100vh;
+}
+#log-img{
+  margin-left: 6em;
+}
+
+#log-h {
+  text-align: center;
+  color: #053970;
+  font-size: 3rem;
+  margin-top: 10px;
+  /* margin-bottom: 20px; */
+}
+.log-lb {
+  font-size: 1.8rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.user-lg {
+  font-size: xx-large;
+  gap: 10px;
+  margin-right: 5px;
+}
+
+
+.log-ip {
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+#log-btn {
+  margin-left: 35%;
+  font-size: large;
+  width: 30%;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-attachment: fixed;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 5px 10px 5px;
+}
+#log-btn:hover{
+  background-color: #0056b3;
+  transform: scale(10px);
+}
+
+
+/* contact form */
+
+.contact-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10em;
+  align-items: center;
+  padding: 20px;
+}
+
+.image-container {
+  text-align: center;
+}
+
+.contact-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  padding-left: 10%;
+}
+
+.contact-container {
+  flex: 1;
+  margin: 40%;
+  width: 25em;
+  height: 30em;
+  padding: 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background-color: #e3f0fc;
+}
+
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#cont-h {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: #053970;
+}
+
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  padding: 1em;
+  margin: 0.5em 0;
+  font-size: 1rem;
+  /* border: 1px solid #ccc; */
+  border: none;
+  border-radius: 8px;
+}
+
+#contact-form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+#contact-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .contact-wrapper {
+    flex-direction: column;
+    gap: 50px;
+  }
+}
+
+.cnt-logo {
+  color: rgb(51, 156, 241);
+  font-size: 1.1em;
+  font-weight: 600;
+  padding: 1%;
+  margin: 3%;
+}
+
+/* Footer CSS */
+
+.footer-logo {
+  height: 50px;
+  width: auto;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  color: rgb(219, 75, 75);
+  gap: 20px;
+  font-size: 2em;
+  margin-right: 25vh;
+}
+.lnkdn:hover{
+  color: #0056b3;
+}
+.fb:hover{
+  color: #0056b3;
+}
+.insta:hover{
+  color: #0056b3;
+}
+
+.container-cpr {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  background-color: powderblue;
+}
+
+.up-arr-cnt{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 1.5em;
+  height: 1.5em;
+  margin: 5px ;
+  margin-left: 50%;
+  background-color:#0056b3;
+
+  color: white;
+}
+.up-arr{
+  text-align: center;
+  margin: 2px 2px 2px 2px;
+}
+.up-arr-cnt:hover{
+  background-color: rgb(219, 75, 75);
+
+}

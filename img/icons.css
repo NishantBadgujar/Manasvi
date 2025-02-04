@@ -1,0 +1,11 @@
+.icon {
+    font-size: 2rem; /* Large icon size */
+    color: #007bff; /* Bootstrap primary color */
+    margin-bottom: 0.5rem; /* Space between icon and title */
+    transition: color 0.3s ease, transform 0.3s ease; /* Smooth hover effect */
+}
+
+.card:hover .icon {
+    color: #0056b3; /* Darker blue on hover */
+    transform: rotate(15deg); /* Slight rotation on hover */
+}
