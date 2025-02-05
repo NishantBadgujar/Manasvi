@@ -163,7 +163,7 @@
       <div class="project">
           
           <h1 class="hero-h">Who we are ?</h1>
-          <img src="MansviAbt-1.jpg" alt="Project 1">
+          <img src="MansviAbt-1.jpg" style="width:70%; margin-left: 7em;" alt="Project 1">
           &nbsp; &nbsp;
          <ul><li> Manasvi Tech Solutions Pvt Ltd is a registered software consulting and services company. Manasvi Tech Solutions Pvt Ltd is having 5+ years experience in designing & developing software solutions.</li>
   
@@ -178,7 +178,7 @@
   
       <div class="project">
           <h1 class="hero-h">What we do ?</h1>
-          <img src="MansviAbt-2.jpg" alt="Project 2">
+          <img src="MansviAbt-2.jpg" style="width:70%; margin-left: 7em;" alt="Project 2">
 
           &nbsp;
           
@@ -421,8 +421,8 @@
               
             </div>
 
-            <div class="col-lg-3 col-md-6 text-center footer-links">
-              <h4>We Provide</h4>
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4 style="margin-left: 35px; text-align:start;">We Provide</h4>
               <ul style="list-style: none; text-align: justify; line-height: 2;">
                 <li>
                   <a href="#services">Website Development</a>
@@ -458,15 +458,15 @@
                   Solutions Pvt Ltd, Survey No:114,Flat No.101, Homewoods
                   Apartment, Bhumkar vasti,
                   Near Bhumkar Chowk, Wakad, Pune-411057.
-                  <li style="list-style: none;">
+                  <li style="list-style: none;  text-align:start; margin-bottom:8px">
                     <i class="fa-solid fa-phone"></i>
-                    <a href="tel:9028889915" style="color: #777777"
+                    <a href="tel:9028889915"
                       >+91 9028889915</a
                     >
                   </li>
-                  <li style="list-style: none;">
+                  <li style="list-style: none; text-align:start">
                     <i class="fa-solid fa-envelope"></i>
-                    <a href="mailto:developer@mansvi.tech" style="color: #777777"
+                    <a href="mailto:developer@mansvi.tech"
                       >developer@manasvi.tech</a
                     >
                   </li>
